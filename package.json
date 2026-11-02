@@ -1,0 +1,19 @@
+{
+  "name": "mycomic-backend",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "keywords": ["manga", "comic", "reader", "portfolio", "showcase"],
+  "author": "DuyThai",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "MyComic Backend Demo Showcase API",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1"
+  }
+}
